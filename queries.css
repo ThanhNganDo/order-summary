@@ -1,0 +1,44 @@
+/* 
+
+Spacing systems(px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-Font size (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+@media (max-width: 24em) {
+	.container {
+		width: 300px;
+	}
+
+	.order-container {
+		padding: 2.4rem 2.4rem;
+	}
+
+	.header {
+		font-size: 2rem;
+	}
+
+	.description {
+		font-size: 1.2rem;
+	}
+
+	.order-box {
+		grid-template-columns: 5rem 1fr 5rem;
+
+		padding: 1.2rem 1.8rem;
+	}
+	.order-title {
+		font-size: 1.2rem;
+		font-weight: 900;
+	}
+
+	.order-pricing {
+		font-size: 1rem;
+	}
+
+	.order-change {
+		font-size: 1rem;
+	}
+}
